@@ -18,8 +18,9 @@ class Closures {
 
 		// Passing our closure to a method
 		Closures.Display(clos);
+		
 
-		def lst = [6, 5, 3, 4];
+		def lst = [6, 5, 3, 8];
 		def value;
 
 		value = lst.find {element -> element > 2}
@@ -41,8 +42,8 @@ class Closures {
 		value = largelst.every{element -> element > 2}
 		println(value);
 		
-		value = lst.any{element -> element > 4}
-		println(value);
+//		value = lst.any{element -> element > 4}
+//		println(value);
 
 	}
 }
