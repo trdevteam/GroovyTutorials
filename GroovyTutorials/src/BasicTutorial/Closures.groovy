@@ -42,8 +42,9 @@ class Closures {
 		value = largelst.every{element -> element > 2}
 		println(value);
 		
-//		value = lst.any{element -> element > 4}
-//		println(value);
+		value = lst.any{element -> element > 4}
+		println(value);
+		
 
 	}
 }
