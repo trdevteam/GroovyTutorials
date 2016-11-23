@@ -13,7 +13,7 @@ class Closures {
 		clos.call("World");
 
 		// We are now changing the value of the String str1 which is referenced in the closure
-		str1 = "Welcome";
+		str1 = "Hello";
 		clos.call("World");
 
 		// Passing our closure to a method
